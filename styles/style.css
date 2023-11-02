@@ -9,13 +9,14 @@ body {
   margin: 0;
   background-image: url(../images/bgtile.png);
   background-repeat: repeat-x;
-  
+
 }
 
 .main-box {
   display: flex;
   justify-content: center;
-  margin: 50px 200px 0 200px;
+  margin: 50px 10vh 0 10vh;
+
 }
 
 .left {
@@ -32,6 +33,7 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
+
 }
 
 .log-in {
@@ -49,6 +51,7 @@ body {
   border-radius: 5px;
   padding: 10px;
   margin: 10px 0 0 0;
+  min-width: 90px;
 }
 
 .house {
@@ -64,18 +67,18 @@ article {
 
 h1 {
   color: #06365f
-  
 }
 
 .bottom-buttons {
   display: flex;
-  justify-content: center;
+  justify-content: left;
+  padding: 50px;
 }
 
 nav {
   display: flex;
   justify-content: center;
-  
+
 }
 
 ul {
@@ -83,7 +86,7 @@ ul {
   flex-direction: row;
   list-style: none;
   text-align: center;
-  margin: 20px;  
+  margin: 20px;
 }
 
 li a {
@@ -105,5 +108,6 @@ li a {
 }
 
 .button {
-  padding: 0 20px;
+  padding: 0px;
+  padding-right: 25px;
 }
